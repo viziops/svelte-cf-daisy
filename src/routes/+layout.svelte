@@ -4,14 +4,14 @@
 
 <div class="navbar bg-base-100">
 	<div class="flex-1">
-		<a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+		<a class="btn btn-ghost normal-case text-xl">Feed the Search</a>
 	</div>
 	<div class="flex-none">
 		<ul class="menu menu-horizontal px-1">
-			<li><a>Item 1</a></li>
+			<li><a>Home</a></li>
 			<li tabindex="0">
 				<a>
-					Parent
+					Products
 					<svg
 						class="fill-current"
 						xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@
 					<li><a>Submenu 2</a></li>
 				</ul>
 			</li>
-			<li><a>Item 3</a></li>
+			<li><a>Contact</a></li>
 		</ul>
 	</div>
 </div>
