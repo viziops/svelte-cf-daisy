@@ -8,9 +8,9 @@
 	</div>
 	<div class="flex-none">
 		<ul class="menu menu-horizontal px-1">
-			<li><a>Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li tabindex="0">
-				<a>
+				<a href="/">
 					Products
 					<svg
 						class="fill-current"
@@ -22,11 +22,11 @@
 					>
 				</a>
 				<ul class="p-2 bg-base-100">
-					<li><a>Submenu 1</a></li>
-					<li><a>Submenu 2</a></li>
+					<li><a href="/">Submenu 1</a></li>
+					<li><a href="/">Submenu 2</a></li>
 				</ul>
 			</li>
-			<li><a>Contact</a></li>
+			<li><a href="/">Contact</a></li>
 		</ul>
 	</div>
 </div>
