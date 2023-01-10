@@ -1,16 +1,13 @@
 <script>
-	import createClient from '$lib/prismicio';
-	import * as prismicH from '@prismicio/helpers';
-
-	const client = createClient();
-	const prismicQuery = client.getFirst();
+	export let data;
 </script>
 
-{#await prismicQuery}
-	<p>Loading...</p>
-{:then prismicResponse}
-	<h1>{prismicH.asText(prismicResponse.data.title)}</h1>
-	{@html prismicH.asHTML(prismicResponse.data.description)}
-{:catch error}
-	<pre>{error.message}</pre>
-{/await}
+<div class="hero min-h-screen bg-primary">
+	<div class="hero-content text-center">
+		<div class="w-full">
+			<h1 class="text-5xl font-bold">Feed the Search</h1>
+			<p class="py-4">This site is not yet live. Coming soon...</p>
+			<!--<button class="btn btn-secondary">Get Started</button>-->
+		</div>
+	</div>
+</div>

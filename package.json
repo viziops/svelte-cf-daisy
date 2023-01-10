@@ -27,6 +27,7 @@
 	"dependencies": {
 		"@prismicio/client": "^6.7.3",
 		"@prismicio/helpers": "^2.3.8",
+		"@prismicio/svelte": "^0.0.4",
 		"daisyui": "^2.46.1"
 	}
 }
