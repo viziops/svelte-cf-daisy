@@ -26,11 +26,13 @@
 					<li><a href="/">Submenu 2</a></li>
 				</ul>
 			</li>
-			<li><a href="/">Contact</a></li>
+			<li><a href="/About">Contact</a></li>
 		</ul>
 	</div>
 </div>
+
 <slot />
+
 <footer class="footer footer-center p-4 bg-base-300 text-base-content">
 	<div>
 		<p>Copyright © 2023 - All right reserved by FEED THE SEARCH (Pty) Ltd</p>
